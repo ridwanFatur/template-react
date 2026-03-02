@@ -67,4 +67,4 @@ jobs:
               us-central1-docker.pkg.dev/ridwan-faturrahman/react-repo/react-app:latest   
 
             docker images -f "dangling=true" -q us-central1-docker.pkg.dev/ridwan-faturrahman/react-repo/react-app | xargs -r docker rmi
-          EOF               
+          EOF
